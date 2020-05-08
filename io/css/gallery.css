@@ -1,0 +1,60 @@
+img {
+    max-width: 150px;
+    padding: 30px;
+}
+.gallery {
+    margin: 20px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    min-width: 900px;
+    max-width: 1000px;
+}
+.book_box {
+    border-style: solid;
+    border-color: #f1f3f7;
+    background-color: white;
+    max-width: 210px;
+    flex-basis: 25%;
+}
+.book_box a{
+    margin: 5px 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.at0 {
+    font-size: 20px;
+}
+.at1 {
+    font-size: 15px;
+    color: #61b2e8;
+}
+.at2 {
+    font-size: 15px;
+}
+.tooltiptext {
+    visibility: hidden;
+    max-width: 500px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    /* border-radius: 6px; */
+    padding: 5px;
+    font-size: 15px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  a:hover .tooltiptext {
+    visibility: visible;
+  }
+  .details {
+      max-height: 350px;
+      min-width: 500px;
+      margin: 10px;
+      overflow: scroll;
+      padding: 10px;
+  }

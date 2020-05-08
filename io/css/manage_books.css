@@ -1,0 +1,14 @@
+.book_el {
+    margin: 20px 100px 0px 100px;
+}
+.book_el > label {
+    min-width: 200px;
+    max-width: 200px;
+    display: inline-block;
+}
+.book_el > textarea {
+    display: block;
+}
+.add_book{
+    margin: 0 500px;
+}

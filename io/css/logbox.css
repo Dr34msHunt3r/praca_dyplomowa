@@ -1,0 +1,15 @@
+.log_box {
+    margin: 50px auto;
+    width: 173px;
+    border: 3px inset rgb(255, 255, 255);
+    background-color: rgb(224, 220, 220);
+    padding: 10px;
+}
+.log_box a:link {
+    color: rgb(36, 134, 214);
+    font-size: small;
+    margin-left: 75px;
+}
+.sub_button {
+    margin-left: 100px;
+}

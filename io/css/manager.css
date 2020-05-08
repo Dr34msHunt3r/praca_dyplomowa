@@ -1,0 +1,31 @@
+.container{
+    min-height: 400px;
+    border-style: solid;
+    border-color: #f1f3f7;
+    padding: 10px;
+    flex-basis: 25%;
+}
+.basket{
+    min-height: 35px;
+    margin-top: 15px;
+    border-bottom: solid white;
+    display: flex;
+    flex-direction: row;
+}
+.basket > input{
+    max-width: 60px;
+    max-height: 23px;
+}
+.description {
+    min-width: 200px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.title{
+    min-width: 400px;
+    max-width: 400px;
+}
+.date{
+    min-width: 150px;
+    max-width: 150px;
+}

@@ -1,0 +1,4 @@
+.basket > input{
+    min-width: 100px !important;
+    margin: 1px;
+}

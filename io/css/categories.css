@@ -1,0 +1,34 @@
+.body {
+    margin:  20px 0px 50px 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .cat {
+    background-color: white;
+    margin: 2px;
+    padding: 10px;
+    max-width: 250px;
+    min-width: 250px;
+  }
+  .cat > li {
+    list-style-type: none;
+  }
+  .cat > ul a:link {
+    text-decoration: none;
+    color: black;
+  }
+  .cat > ul a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  .cat > ul a:hover {
+    text-decoration: none;
+    color: #f59551;
+  }
+  .cat > ul a:active {
+    text-decoration: none;
+    color: black;
+  }
+  .cat > ul {
+    list-style-type: square;
+  }
